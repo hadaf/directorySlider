@@ -6,7 +6,7 @@
 <html>
 <head>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script><!-- This is where to put the location of the jquery library you intend to use-->
-<script src="../directorySlider.js"></script><!-- This is where the directorySlider javascript file is-->
+<script src="./directorySlider.js"></script><!-- This is where the directorySlider javascript file is-->
 </head>
 <body>
 <div class="directorySlider"></div><!-- Have to use this class name -->
@@ -21,13 +21,12 @@ $(document).ready(function(){
 		numslides: 4, //This is the number of slides that will be displayed.
 		//This is the number of slides the jQuery will look for, starting at the highest number and counting down by one each time
 		//Also, having a numslides of 9, a total of nine slides, but the numbers going from 7-15 will result in less-than-positive results: there will be a broken image link for 15, 14, 13, 12, 11, and 10, then it will display 9, 8, and 7 then it will quickly loop broken images from six to zero
-		speed: 20, //This is the time it takes to fade from one image to the next (in milliseconds [1 second = 1000])
+		speed: 300, //This is the time it takes to fade from one image to the next (in milliseconds [1 second = 1000])
 		timeout: 900, //This is the time each image displays for before changing into the next image (in milliseconds [1 second = 1000])
 		height: 250, //This is the height of the element, so it can fit in with other HTML elements
 		width: 1000 //This is the width of the element, so it can fit in with other HTML elements
 	});
 });
 </script>
-<a href="/DirectorySliderTestAdvanced.html">Link to Advanced Use of directorySlider</a>
 </body>
 </html>
