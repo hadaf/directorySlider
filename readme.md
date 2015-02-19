@@ -1,3 +1,5 @@
+See demo.html for usage.
+
 Note: A live sample (courtesy of http://en.gravatar.com/whitishmink) is available at:
 http://www.bensloboda.com/DirectorySliderTest.html
 
