@@ -38,11 +38,11 @@
 
        // Get slides
        var slides = [],
-       slideNumber = 1;
+       slideNumber = config.numslides;
 
-       while(slideNumber <= config.numslides){
+       while(slideNumber >=1){
          slides.push('<img src="' + config.directory + config.filebase + slideNumber + '.' + config.extension + '" />');
-         slideNumber++;
+         slideNumber--;
        }
 
        // append slideshow
