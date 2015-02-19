@@ -1,4 +1,4 @@
-#A live sample (courtesy of http://en.gravatar.com/whitishmink) is available at:
+Note: A live sample (courtesy of http://en.gravatar.com/whitishmink) is available at:
 http://www.bensloboda.com/DirectorySliderTest.html
 
 
